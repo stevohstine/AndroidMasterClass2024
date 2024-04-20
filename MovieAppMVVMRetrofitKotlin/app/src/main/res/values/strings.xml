@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Movies App Kotlin</string>
+    <string name="api_key">df1e6842226720ae7f461cad616a33a9</string>
 </resources>

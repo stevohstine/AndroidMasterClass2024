@@ -6,4 +6,10 @@
     </style>
 
     <style name="Theme.MovieAppMVVMRetrofitKotlin" parent="Base.Theme.MovieAppMVVMRetrofitKotlin" />
+
+    <style name="ActivityNoActionBarTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryDark">@color/purple_700</item>
+        <item name="colorAccent">@color/black</item>
+    </style>
 </resources>
