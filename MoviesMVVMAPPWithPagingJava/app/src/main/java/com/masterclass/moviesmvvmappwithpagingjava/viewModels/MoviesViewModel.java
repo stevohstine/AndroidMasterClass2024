@@ -15,7 +15,7 @@ import io.reactivex.rxjava3.core.Flowable;
 import kotlinx.coroutines.CoroutineScope;
 
 public class MoviesViewModel extends ViewModel {
-    Flowable<PagingData<Movie>> flowableMoviePagingData;
+    public Flowable<PagingData<Movie>> flowableMoviePagingData;
 
     public MoviesViewModel(){
         init();

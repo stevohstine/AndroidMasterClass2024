@@ -48,7 +48,7 @@ dependencies {
 
     val roomVersion = "2.6.1"
     val lifecycleVersion = "2.7.0"
-    val pagingVersion = "3.2.1"
+    val pagingVersion = "3.1.0"
 
     // Add Room dependency
     implementation ("androidx.room:room-runtime:$roomVersion")
@@ -57,6 +57,7 @@ dependencies {
     implementation ("androidx.lifecycle:lifecycle-viewmodel-ktx:$lifecycleVersion")
     // LiveData
     implementation ("androidx.lifecycle:lifecycle-livedata-ktx:$lifecycleVersion")
+    implementation ("androidx.lifecycle:lifecycle-extensions:2.2.0")
 
     kapt ("androidx.room:room-compiler:$roomVersion")
 
@@ -86,8 +87,12 @@ dependencies {
     implementation("androidx.paging:paging-runtime:$pagingVersion")
     // optional - RxJava3 support
     implementation("androidx.paging:paging-rxjava3:$pagingVersion")
+//    implementation "androidx.paging:paging-runtime:3.1.0"
+//    implementation "androidx.paging:paging-rxjava3:3.1.0"
+
 
     //Hilt Dagger
     implementation ("com.google.dagger:hilt-android:2.51.1")
     annotationProcessor ("com.google.dagger:hilt-compiler:2.51.1")
+    kapt("com.google.dagger:hilt-android-compiler:2.51.1")
 }
