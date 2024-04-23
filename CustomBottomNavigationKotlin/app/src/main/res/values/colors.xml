@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#C11B49</color>
-    <color name="colorPrimaryDark">#9A1238</color>
-    <color name="colorPrimaryDarkDark">#d20051</color>
+<!--    <color name="colorPrimary">#C11B49</color>-->
+<!--    <color name="colorPrimaryDark">#9A1238</color>-->
+<!--    <color name="colorPrimaryDarkDark">#d20051</color>-->
+
+    <color name="colorPrimary">#BF202C</color>
+    <color name="colorPrimaryDark">#BF202C</color>
+    <color name="colorPrimaryDarkDark">#BF202C</color>
+
     <color name="colorAccent">#FDB000</color>
     <color name="color_purple">#4E176A</color>
     <color name="blue_shade">#053a62</color>
@@ -48,8 +53,11 @@
     <color name="white">#FFFFFFFF</color>
     <color name="white_fade">#eEEEEEEE</color>
     <color name="grey_fade">#BEBEBE</color>
-    <color name="grey">#B3B3B3B3</color>
+    <color name="grey">#475467</color>
     <color name="baby_blue">#89CFF0</color>
     <color name="bottom_nav_color">#F3F5F6</color>
     <color name="greyscale">#F9FAFB</color>
+
+    <color name="masterColor">#BF202C</color>
+    <color name="masterPageBackgroundColor">#f8e8e9</color>
 </resources>
